@@ -31,3 +31,29 @@ topbar
 .topbar .col-md-6:first-child i {
     color: var(--secondaryColor);
 }
+/*****************
+nav
+*****************/
+.navbar {
+    background-color: var(--secondaryColor);
+}
+.navbar-brand {
+    font-family: var(--logoFont);
+    font-size: 2rem;
+    color: var(--primaryColor);
+}
+.navbar-brand:hover {
+    color: var(--white);
+    transition: var(--transition);
+}
+.nav-link {
+    color: var(--primaryColor);
+    text-transform: uppercase;
+    transition: var(--transition);
+}
+.nav-link:hover {
+    color: var(--white);
+}
+.nav-item.active .nav-link {
+    color: var(--white);
+}
