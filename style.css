@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito:wght@200;400;700&display=swap');
+:root {
+    --primaryColor: #455360;
+    --secondaryColor: #fb795b;
+    --white: #fff;
+    --font: 'Nunito', sans-serif;
+    --fontSize: 16px;
+    --logoFont: 'Great Vibes', cursive;
+    --transition: .3s ease;
+}
+body {
+    font-size: var(--fontSize);
+    color: var(--primaryColor);
+}
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+/*****************
+topbar
+*****************/
+.topbar {
+    background-color: var(--primaryColor);
+}
+.topbar a {
+    color: var(--white);
+}
+.topbar a:hover {
+    color: var(--secondaryColor);
+    transition: var(--transition);
+}
+.topbar .col-md-6:first-child i {
+    color: var(--secondaryColor);
+}
