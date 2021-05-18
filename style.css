@@ -11,6 +11,7 @@
 body {
     font-size: var(--fontSize);
     color: var(--primaryColor);
+    font-family: var(--font);
 }
 h1, h2, h3, h4 {
     font-weight: 700;
@@ -88,4 +89,35 @@ header article {
     background-color: var(--white);
     padding: 100px;
 }
-
+/*****************
+main
+*****************/
+/* widget */
+.widget {
+    border: 1px solid var(--primaryColor);
+}
+.widget h3 {
+    background-color: var(--secondaryColor);
+}
+.widget ul li a {
+    display: block;
+    color: var(--primaryColor);
+    text-decoration: none;
+    border-bottom: 2px solid var(--secondaryColor);
+    margin-bottom: 5px;
+    transition: var(--transition);
+}
+.widget ul li a:hover {
+    background-color: var(--secondaryColor);
+    color: var(--white);
+    padding-left: 30px;
+}
+/* post */
+.post .text {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: -100px;
+    background-color: var(--white);
+    border-bottom: 6px solid var(--secondaryColor);
+}
