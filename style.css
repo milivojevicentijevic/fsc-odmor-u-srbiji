@@ -15,6 +15,20 @@ body {
 h1, h2, h3, h4 {
     font-weight: 700;
 }
+.button {
+    background-color: var(--secondaryColor);
+    padding: 10px 40px;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1rem;
+    transition: var(--transition);
+    display: inline-block;
+}
+.button:hover {
+    background-color: var(--primaryColor);
+    text-decoration: none;
+    color: var(--white);
+}
 /*****************
 topbar
 *****************/
@@ -57,3 +71,21 @@ nav
 .nav-item.active .nav-link {
     color: var(--white);
 }
+/*****************
+header
+*****************/
+header {
+    background-image: url(img/header.png);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+}
+header article {
+    position: absolute;
+    right: 15%;
+    border-right: 10px solid var(--secondaryColor);
+    background-color: var(--white);
+    padding: 100px;
+}
+
